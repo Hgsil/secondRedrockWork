@@ -29,7 +29,7 @@ public class Human {
     }
 
     public void introduce(){
-        System.out.println(name+"  "+age+"  "+sex);
+        System.out.println(this.getName()+"  "+this.getAge()+"  "+sex);
     }
 
     public static void main(String[] args) {
